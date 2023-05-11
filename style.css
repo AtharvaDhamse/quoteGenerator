@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+}
+
+.heading { 
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: blue;
+    background-color: #f4edea;
+    border: 10px solid #ec9441;
+}
+
+.quotes p{
+    font-size: 1.5rem;
+}
+
+.quotes h3{
+    font-size: 1rem;
+    color: black;
+}
+
+.quotes button{
+    font-size: 1rem;
+    margin-top: 20%;
+    color: white;
+}
+
+@media(max-width: 480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
